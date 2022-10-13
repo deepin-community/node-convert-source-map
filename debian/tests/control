@@ -1,0 +1,3 @@
+Tests: run-examples
+Depends: node-convert-source-map
+ , nodejs (>= 6)

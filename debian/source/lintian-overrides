@@ -1,0 +1,7 @@
+# Not missing source, tests contain a few long lines
+# e.g. a URL with long hash.
+# See bug: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=815994
+source: source-contains-prebuilt-javascript-object test/*.js *
+source: source-is-missing test/comment-regex.js *
+source: source-is-missing test/map-file-comment.js *
+source: source-is-missing test/convert-source-map.js *

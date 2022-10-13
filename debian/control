@@ -1,0 +1,31 @@
+Source: node-convert-source-map
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Ross Gammon <rossgammon@mail.dk>
+Build-Depends: debhelper-compat (= 13)
+ , node-inline-source-map <!nocheck>
+ , node-safe-buffer <!nocheck>
+ , node-tap (>= 8.0) <!nocheck>
+ , dh-sequence-nodejs
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-convert-source-map
+Vcs-Git: https://salsa.debian.org/js-team/node-convert-source-map.git
+Homepage: https://github.com/thlorenz/convert-source-map
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-convert-source-map
+Architecture: all
+Depends: ${misc:Depends}
+ , node-safe-buffer
+Provides: ${nodejs:Provides}
+Description: Converts a source-map from/to between formats
+ Converts a source-map from/to different formats and allows adding/changing
+ the properties.
+ .
+ Source maps allow tools to display unminified code from minified code
+ with an optimized mapping between them. It is a kind of debug symbols
+ for minified javascript.
+ .
+ Node.js is an event-based server-side JavaScript engine.

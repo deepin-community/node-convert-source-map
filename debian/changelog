@@ -1,0 +1,104 @@
+node-convert-source-map (1.7.0+~1.5.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Use dh-sequence-nodejs
+  * Embed typescript definitions and repack
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 05 Dec 2020 23:28:39 +0100
+
+node-convert-source-map (1.7.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Remove obsolete fields Name from debian/upstream/metadata.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Use pkg-js-tools auto test & install
+  * New upstream version 1.7.0
+  * Remove dpkg-dev from build-dependencies
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 04 May 2020 10:26:53 +0200
+
+node-convert-source-map (1.6.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version: use safe-buffer
+  * Improve description
+  * Bump policy. Use Rules-Requires-Root: no
+
+ -- Bastien Roucariès <rouca@debian.org>  Wed, 31 Oct 2018 14:47:44 +0100
+
+node-convert-source-map (1.5.1-2) unstable; urgency=medium
+
+  * Team upload
+  * Move to salsa
+  * Bump policy and compat (no changes)
+
+ -- Bastien Roucariès <rouca@debian.org>  Fri, 18 May 2018 16:43:22 +0200
+
+node-convert-source-map (1.5.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version
+  * Move to javascript section
+  * Bump policy
+
+ -- Bastien Roucariès <rouca@debian.org>  Thu, 30 Nov 2017 16:03:06 +0100
+
+node-convert-source-map (1.5.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version (Closes: #859098).
+    Needed for browserify and fix testsuite.
+  * Enable testsuite (Closes: #818319).
+  * Update standards version. No change.
+  * Bump compat version.
+  * Fix example installation. Replace require('../') by
+    require('convert-source-map').
+  * Run improved cli test.
+
+ -- Bastien Roucariès <rouca@debian.org>  Sun, 16 Apr 2017 15:33:49 +0200
+
+node-convert-source-map (1.2.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Drop TODO file, bug submitted instead
+  * Bump standards version, no changes required
+  * Use secure URI for Vcs
+  * Add lintian override for source-is-missing
+
+ -- Ross Gammon <rossgammon@mail.dk>  Wed, 16 Mar 2016 22:50:05 +0100
+
+node-convert-source-map (1.1.3-1) unstable; urgency=medium
+
+  * New upstream release
+  * Fix YAML in upstream/metadata
+
+ -- Ross Gammon <rossgammon@mail.dk>  Mon, 11 Jan 2016 19:32:11 +0100
+
+node-convert-source-map (1.1.2-1) unstable; urgency=medium
+
+  * New upstream release
+  * Always sign tag default added to gbp.conf
+  * Switch priority to optional from extra
+
+ -- Ross Gammon <rossgammon@mail.dk>  Fri, 20 Nov 2015 20:41:37 +0100
+
+node-convert-source-map (1.1.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Drop testsuite stanza as no longer required
+  * Fix New Issues URL in metadata
+
+ -- Ross Gammon <rossgammon@mail.dk>  Fri, 07 Aug 2015 22:24:47 +0200
+
+node-convert-source-map (1.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #780699)
+
+ -- Ross Gammon <rossgammon@mail.dk>  Wed, 01 Apr 2015 20:05:30 +0200
