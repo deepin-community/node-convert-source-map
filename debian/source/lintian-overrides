@@ -1,7 +1,10 @@
 # Not missing source, tests contain a few long lines
 # e.g. a URL with long hash.
 # See bug: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=815994
-source: source-contains-prebuilt-javascript-object test/*.js *
-source: source-is-missing test/comment-regex.js *
-source: source-is-missing test/map-file-comment.js *
-source: source-is-missing test/convert-source-map.js *
+source-is-missing test/comment-regex.js
+source-is-missing test/convert-source-map.js
+source-is-missing test/map-file-comment.js
+source-contains-prebuilt-javascript-object test/comment-regex.js
+source-contains-prebuilt-javascript-object test/convert-source-map.js
+source-contains-prebuilt-javascript-object test/map-file-comment.js
+very-long-line-length-in-source-file test/fixtures/map-file-comment-inline.css line 14 is 829 characters long (>512)

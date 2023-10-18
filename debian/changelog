@@ -1,3 +1,43 @@
+node-convert-source-map (1.9.0+~1.5.2-1) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.1, no changes needed.
+  * New upstream version 1.9.0+~1.5.2
+  * Drop dependency to node-safe-buffer
+
+ -- Yadd <yadd@debian.org>  Sat, 26 Nov 2022 16:34:22 +0100
+
+node-convert-source-map (1.8.0+~1.5.2-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-convert-source-map: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 22 Nov 2022 11:28:32 +0000
+
+node-convert-source-map (1.8.0+~1.5.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Fix test for tap >= 15 (--no-cov) (Closes: #1009558)
+
+ -- Yadd <yadd@debian.org>  Thu, 21 Apr 2022 09:30:52 +0200
+
+node-convert-source-map (1.8.0+~1.5.2-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on node-tap.
+
+  [ Yadd ]
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * New upstream version 1.8.0+~1.5.2
+  * Update lintian overrides
+
+ -- Yadd <yadd@debian.org>  Sat, 11 Dec 2021 08:50:50 +0100
+
 node-convert-source-map (1.7.0+~1.5.1-1) unstable; urgency=medium
 
   * Team upload
