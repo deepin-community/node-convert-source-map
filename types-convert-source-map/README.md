@@ -5,12 +5,12 @@
 This package contains type definitions for convert-source-map (https://github.com/thlorenz/convert-source-map).
 
 # Details
-Files were exported from https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/convert-source-map
+Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/convert-source-map.
 
-Additional Details
- * Last updated: Wed, 25 Oct 2017 00:19:45 GMT
+### Additional Details
+ * Last updated: Tue, 06 Jul 2021 20:32:30 GMT
  * Dependencies: none
  * Global values: none
 
 # Credits
-These definitions were written by Andrew Gaspar <https://github.com/AndrewGaspar>, Melvin Groenhoff <https://github.com/mgroenhoff>, TeamworkGuy2 <https://github.com/TeamworkGuy2>.
+These definitions were written by [Andrew Gaspar](https://github.com/AndrewGaspar), [Melvin Groenhoff](https://github.com/mgroenhoff), and [TeamworkGuy2](https://github.com/TeamworkGuy2).

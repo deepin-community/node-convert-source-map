@@ -5,10 +5,9 @@ Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.deb
 Uploaders: Ross Gammon <rossgammon@mail.dk>
 Build-Depends: debhelper-compat (= 13)
  , node-inline-source-map <!nocheck>
- , node-safe-buffer <!nocheck>
- , node-tap (>= 8.0) <!nocheck>
+ , node-tap <!nocheck>
  , dh-sequence-nodejs
-Standards-Version: 4.5.1
+Standards-Version: 4.6.1
 Vcs-Browser: https://salsa.debian.org/js-team/node-convert-source-map
 Vcs-Git: https://salsa.debian.org/js-team/node-convert-source-map.git
 Homepage: https://github.com/thlorenz/convert-source-map
@@ -18,8 +17,8 @@ Rules-Requires-Root: no
 Package: node-convert-source-map
 Architecture: all
 Depends: ${misc:Depends}
- , node-safe-buffer
 Provides: ${nodejs:Provides}
+Multi-Arch: foreign
 Description: Converts a source-map from/to between formats
  Converts a source-map from/to different formats and allows adding/changing
  the properties.
